@@ -5,6 +5,17 @@ Simple demo benchmarking a 2048-byte lattice hash using the `@noble/hashes` BLAK
 Reference SIMD 0215: [Solana Accounts Lattice Hash Proposal](https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0215-accounts-lattice-hash.md)
 
 ---
+## Hardened Cryptographic Extension
+
+A production-grade lattice/VDF/Dilithium MPC extension is available in:
+
+📄 [`extensions/lattice_mpc_hardened.py`](extensions/lattice_mpc_hardened.py)
+
+This extension adds:
+- LWE-based key hardening
+- Verifiable Delay Function (VDF) integration
+- Dilithium post-quantum signatures
+---
 
 ## Installation and Running (JavaScript)
 
